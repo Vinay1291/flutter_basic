@@ -49,7 +49,7 @@ class _MyHomeState extends State<MyHome> {
             width: 180,
             child: FloatingActionButton(
               onPressed: () {
-                print('$count');
+                debugPrint('$count');
                 count++;
                 setState(() {});
               },

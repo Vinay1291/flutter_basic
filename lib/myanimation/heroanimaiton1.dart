@@ -6,15 +6,13 @@ class HeroDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            RectButtonPop(text: 'X'),
-            Hero(tag: 'background', child: Image.asset('assets/img/logo.jpeg')),
-          ],
-        ),
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          RectButtonPop(text: 'X'),
+          Hero(tag: 'background', child: Image.asset('assets/img/logo.jpeg')),
+        ],
       ),
     );
   }

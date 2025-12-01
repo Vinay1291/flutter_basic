@@ -18,19 +18,17 @@ class Hii extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: InkWell(
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => HeroDetail()),
-            );
-          },
-          child: Hero(
-            tag: 'background',
-            child: Image.asset('assets/img/logo.jpeg', width: 100, height: 100),
-          ),
+    return Center(
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => HeroDetail()),
+          );
+        },
+        child: Hero(
+          tag: 'background',
+          child: Image.asset('assets/img/logo.jpeg', width: 100, height: 100),
         ),
       ),
     );

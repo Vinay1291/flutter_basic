@@ -78,7 +78,7 @@ class _DTPickerState extends State<DTPicker> {
                   lastDate: DateTime(2027),
                 );
                 if (datePicked != null) {
-                  print(
+                  debugPrint(
                     'Date selected: ${datePicked.day}-${datePicked.month}-${datePicked.year}',
                   );
                 }
@@ -87,14 +87,14 @@ class _DTPickerState extends State<DTPicker> {
             ),
             ElevatedButton(
               onPressed: () async {
-                TimeOfDay? TimePicked = await showTimePicker(
+                TimeOfDay? timePicked = await showTimePicker(
                   context: context,
                   initialTime: TimeOfDay.now(),
                   initialEntryMode: TimePickerEntryMode.dial,
                 );
-                if (TimePicked != null) {
-                  print(
-                    'Time selected: ${TimePicked.hour}:${TimePicked.minute}',
+                if (timePicked != null) {
+                  debugPrint(
+                    'Time selected: ${timePicked.hour}:${timePicked.minute}',
                   );
                 }
               },
@@ -146,7 +146,7 @@ class _DTCardState extends State<DTCard> {
                   onPressed: () {
                     setState(() {
                       time = DateTime.now();
-                      print('$time');
+                      debugPrint('$time');
                     });
                   },
                   child: Text('Current Time'),

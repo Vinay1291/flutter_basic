@@ -60,7 +60,7 @@ class _MyTextInputState extends State<MyTextInput> {
               onPressed: () {
                 String uEmail = emailText.text.toString();
                 String uPass = passText.text;
-                print('Email: $uEmail, Pass $uPass');
+                debugPrint('Email: $uEmail, Pass $uPass');
               },
               child: Text('Login'),
             ),

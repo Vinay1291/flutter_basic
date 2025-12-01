@@ -10,13 +10,13 @@ class MyInkWell extends StatelessWidget {
       body: Center(
         child: InkWell(
           onTap: () {
-            print('Tapped on Container');
+            debugPrint('Tapped on Container');
           },
           onDoubleTap: () {
-            print('Double Tapped');
+            debugPrint('Double Tapped');
           },
           onLongPress: () {
-            print('Long presed.');
+            debugPrint('Long presed.');
           },
           child: Container(
             width: 200,
@@ -24,7 +24,7 @@ class MyInkWell extends StatelessWidget {
             color: Colors.amber,
             child: Center(
               child: InkWell(
-                onTap: () => print('Text widget Tapped.'),
+                onTap: () => debugPrint('Text widget Tapped.'),
                 child: Text(
                   'Click Here',
                   style: TextStyle(fontSize: 21, fontWeight: FontWeight.w700),

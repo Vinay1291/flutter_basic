@@ -39,7 +39,7 @@ class _MRSState extends State<MRS> {
         activeColor: Colors.green.shade500,
         onChanged: (newValue) {
           values = newValue;
-          print("${newValue.start} and ${newValue.end}");
+          debugPrint("${newValue.start} and ${newValue.end}");
           setState(() {});
         },
       ),

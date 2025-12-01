@@ -27,10 +27,10 @@ class MOB extends StatelessWidget {
   Widget build(BuildContext context) {
     return OutlinedButton(
       onPressed: () {
-        print('Out Line pressed.');
+        debugPrint('Out Line pressed.');
       },
       onLongPress: () {
-        print('Out Line Long Pressed ');
+        debugPrint('Out Line Long Pressed ');
       },
       child: Text('Outline Button'),
     );
@@ -44,10 +44,10 @@ class MEB extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
-        print('Pressed Elevated');
+        debugPrint('Pressed Elevated');
       },
       onLongPress: () {
-        print('Long Pressed Elevated.');
+        debugPrint('Long Pressed Elevated.');
       },
       child: Text('Elevated Button'),
     );
@@ -61,10 +61,10 @@ class MTB extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () {
-        print('Text Button Tapped!');
+        debugPrint('Text Button Tapped!');
       },
       onLongPress: () {
-        print('Long Pressed.');
+        debugPrint('Long Pressed.');
       },
       child: Text("Click Me"),
     );

@@ -36,13 +36,13 @@ class MyColNRow extends StatelessWidget {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      print('hii col n row');
+                      debugPrint('hii col n row');
                     },
                     child: Text('BTN 1'),
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      print('hii col n row');
+                      debugPrint('hii col n row');
                     },
                     child: Text('BTN 2'),
                   ),
@@ -60,7 +60,7 @@ class MyColNRow extends StatelessWidget {
           Text('E', style: TextStyle(fontSize: 25)),
           ElevatedButton(
             onPressed: () {
-              print('Pressed');
+              debugPrint('Pressed');
             },
             child: Text('Click'),
           ),

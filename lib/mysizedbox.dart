@@ -12,8 +12,8 @@ class MySizedBox extends StatelessWidget {
           dimension: 100,
           child: ElevatedButton(
             onPressed: () {},
-            child: Text('Text'),
             style: ElevatedButton.styleFrom(backgroundColor: Colors.blueAccent),
+            child: Text('Text'),
           ),
         ),
 
@@ -23,8 +23,8 @@ class MySizedBox extends StatelessWidget {
           dimension: 100,
           child: ElevatedButton(
             onPressed: () {},
-            child: Text('Text'),
             style: ElevatedButton.styleFrom(backgroundColor: Colors.blueAccent),
+            child: Text('Text'),
           ),
         ),
 
@@ -34,8 +34,8 @@ class MySizedBox extends StatelessWidget {
           dimension: 100,
           child: ElevatedButton(
             onPressed: () {},
-            child: Text('Text'),
             style: ElevatedButton.styleFrom(backgroundColor: Colors.blueAccent),
+            child: Text('Text'),
           ),
         ),
       ],

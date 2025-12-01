@@ -4,7 +4,7 @@ import 'package:flutter_application_2/allpage.dart';
 // import 'package:flutter_application_2/myconstraint.dart';
 
 // import 'package:flutter_application_2/myhomepage.dart';
-import 'package:flutter_application_2/splashPage.dart';
+import 'package:flutter_application_2/splashpage.dart';
 
 // import 'myanimation/myopacity.dart';
 // import 'package:flutter_application_2/mypositioned.dart';
